@@ -16,6 +16,11 @@
       "metalness": 0.3,
       "showInPicker": false
     },
+    "Fasteners": {
+      "color": "#B4B4B4",
+      "metalness": 0.3,
+      "showInPicker": false
+    },
     "Hardware Detail": {
       "color": "#C8C8C8",
       "metalness": 0.3,
@@ -67,27 +72,27 @@
     },
     {
       "match": "M3*",
-      "category": "Hardware"
+      "category": "Fasteners"
     },
     {
       "match": "M5*",
-      "category": "Hardware"
+      "category": "Fasteners"
     },
     {
       "match": "9????A*",
-      "category": "Hardware"
+      "category": "Fasteners"
     },
     {
       "match": "*_pin*",
-      "category": "Hardware"
+      "category": "Fasteners"
     },
     {
       "match": "18mm_Spacer*",
-      "category": "Hardware"
+      "category": "Fasteners"
     },
     {
       "match": "Threaded_Spacer_Nut*",
-      "category": "Hardware"
+      "category": "Fasteners"
     },
     {
       "match": "MGN9H_-_Carriage*",

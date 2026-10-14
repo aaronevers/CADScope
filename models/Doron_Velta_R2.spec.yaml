@@ -12,7 +12,8 @@ palette:
   Main:               { color: "#4A4A4A" }                                            # printed parts
   Accent:             { color: "#C41E1E" }                                            # printed parts named with the a-prefix
   Frame:              { color: "#757575", metalness: 0.3, showInPicker: false }       # extrusions
-  Hardware:           { color: "#C8C8C8", metalness: 0.3, showInPicker: false }       # fasteners, bearings, linear rails, hotend metal
+  Hardware:           { color: "#C8C8C8", metalness: 0.3, showInPicker: false }       # bearings, linear rails, pulleys, hotend metal
+  Fasteners:          { color: "#B4B4B4", metalness: 0.3, showInPicker: false }       # steel screws, nuts, inserts, spacers, pins
   Hardware Detail:    { color: "#C8C8C8", metalness: 0.3, showInPicker: false, showInTree: false }   # sub-bodies of hardware
   Black:              { color: "#5E5E5E", showInPicker: false }                       # belts, carbon arms, steppers, fans, feet, silicone
   Bed:                { color: "#A9A9A9", metalness: 0.3, showInPicker: false }       # aluminium bed plate
@@ -31,12 +32,12 @@ autoAssign:
   - { match: "*_x*",                      category: Main }
 
   # ---- Fasteners, inserts, pins ---------------------------------------
-  - { match: "M3*",                       category: Hardware }
-  - { match: "M5*",                       category: Hardware }
-  - { match: "9????A*",                   category: Hardware }   # McMaster part numbers
-  - { match: "*_pin*",                    category: Hardware }   # dowel and idler pins
-  - { match: "18mm_Spacer*",              category: Hardware }
-  - { match: "Threaded_Spacer_Nut*",      category: Hardware }
+  - { match: "M3*",                       category: Fasteners }
+  - { match: "M5*",                       category: Fasteners }
+  - { match: "9????A*",                   category: Fasteners }   # McMaster part numbers
+  - { match: "*_pin*",                    category: Fasteners }   # dowel and idler pins
+  - { match: "18mm_Spacer*",              category: Fasteners }
+  - { match: "Threaded_Spacer_Nut*",      category: Fasteners }
 
   # ---- Linear motion, delta arms, belts -------------------------------
   - { match: "MGN9H_-_Carriage*",         category: "Hardware Detail" }   # carriage block sub-bodies
