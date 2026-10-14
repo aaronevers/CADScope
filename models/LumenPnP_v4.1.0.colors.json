@@ -6,24 +6,32 @@
     "Accent": {
       "color": "#F2B01E"
     },
+    "Red": {
+      "color": "#BD1C57",
+      "showInPicker": false
+    },
+    "Blue": {
+      "color": "#216CBD",
+      "showInPicker": false
+    },
     "Frame": {
       "color": "#2A2A2A",
-      "metalness": 0.6,
+      "metalness": 0.3,
       "showInPicker": false
     },
     "Hardware": {
-      "color": "#9A9A9A",
-      "metalness": 0.9,
+      "color": "#C8C8C8",
+      "metalness": 0.3,
       "showInPicker": false
     },
     "Fasteners": {
-      "color": "#383838",
-      "metalness": 0.7,
+      "color": "#B4B4B4",
+      "metalness": 0.3,
       "showInPicker": false
     },
     "Brass": {
       "color": "#C9A13B",
-      "metalness": 0.85,
+      "metalness": 0.3,
       "showInPicker": false
     },
     "Black": {
@@ -32,7 +40,7 @@
     },
     "Electronics": {
       "color": "#262626",
-      "metalness": 0.4,
+      "metalness": 0.1,
       "showInPicker": false
     }
   },
@@ -82,8 +90,32 @@
       "category": "Accent"
     },
     {
-      "match": "y-limit-striker_*",
+      "match": "belt-clamp*",
       "category": "Accent"
+    },
+    {
+      "match": "blade1?_0*",
+      "category": "Accent"
+    },
+    {
+      "match": "datum-board-mount*",
+      "category": "Accent"
+    },
+    {
+      "match": "nozzle-rack",
+      "category": "Accent"
+    },
+    {
+      "match": "squaring-bracket*",
+      "category": "Accent"
+    },
+    {
+      "match": "z-gantry-backplate-left*",
+      "category": "Red"
+    },
+    {
+      "match": "z-gantry-backplate-right*",
+      "category": "Blue"
     },
     {
       "match": "*-strip-feeder*",
@@ -95,14 +127,6 @@
     },
     {
       "match": "back-leg*",
-      "category": "Main"
-    },
-    {
-      "match": "belt-clamp*",
-      "category": "Main"
-    },
-    {
-      "match": "blade1?_0*",
       "category": "Main"
     },
     {
@@ -134,10 +158,6 @@
       "category": "Main"
     },
     {
-      "match": "datum-board-mount*",
-      "category": "Main"
-    },
-    {
       "match": "extrusion-cable-clip*",
       "category": "Main"
     },
@@ -158,19 +178,11 @@
       "category": "Main"
     },
     {
-      "match": "nozzle-rack",
-      "category": "Main"
-    },
-    {
       "match": "peek-cable-clamp*",
       "category": "Main"
     },
     {
       "match": "secondary-fid-mount*",
-      "category": "Main"
-    },
-    {
-      "match": "squaring-bracket*",
       "category": "Main"
     },
     {
@@ -206,7 +218,7 @@
       "category": "Main"
     },
     {
-      "match": "z-gantry-backplate-*",
+      "match": "y-limit-striker_*",
       "category": "Main"
     },
     {
@@ -223,7 +235,7 @@
     },
     {
       "match": "m5-thumb-screw*",
-      "category": "Brass"
+      "category": "Hardware"
     },
     {
       "match": "m3_t-nut_bar*",
@@ -327,11 +339,11 @@
     },
     {
       "match": "n*-nozzle*",
-      "category": "Hardware"
+      "category": "Black"
     },
     {
       "match": "nozzle-holder*",
-      "category": "Hardware"
+      "category": "Brass"
     },
     {
       "match": "rotary-pneumatic-adapter*",
