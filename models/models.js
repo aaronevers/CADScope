@@ -48,5 +48,13 @@ export const models = [
     colors: "models/Doron_Velta_R2.colors.json",
     github: "https://github.com/rogerlz/Doron-Velta",
     github_text: "Doron Velta by Rogerio Goncalves on GitHub"
+  },
+  {
+    id: "LumenPnP_v4.1.0",
+    name: "LumenPnP v4.1.0",
+    model: "models/LumenPnP_v4.1.0.glb",
+    colors: "models/LumenPnP_v4.1.0.colors.json",
+    github: "https://github.com/opulo-inc/lumenpnp",
+    github_text: "LumenPnP v4.1.0 by Opulo on GitHub"
   }
 ];
