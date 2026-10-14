@@ -22,12 +22,12 @@ palette:
   Accent:             { color: "#F2B01E" }                                            # yellow printed parts
   Red:                { color: "#BD1C57", showInPicker: false }                       # left Z backplate
   Blue:               { color: "#216CBD", showInPicker: false }                       # right Z backplate
-  Frame:              { color: "#2A2A2A", metalness: 0.3, showInPicker: false }       # black V-slot and corner brackets
+  Frame:              { color: "#757575", metalness: 0.3, showInPicker: false }       # black V-slot and corner brackets
   Hardware:           { color: "#C8C8C8", metalness: 0.3, showInPicker: false }       # steel rails, carriages, pulleys, valves
   Fasteners:          { color: "#B4B4B4", metalness: 0.3, showInPicker: false }       # steel screws, nuts, T-nuts
   Brass:              { color: "#C9A13B", metalness: 0.3, showInPicker: false }       # thumb screws, nozzle holders
-  Black:              { color: "#1F1F1F", showInPicker: false }                       # belts, drag chains, steppers, cameras, pumps, nozzle tips
-  Electronics:        { color: "#262626", metalness: 0.1, showInPicker: false }       # black solder-mask PCBs
+  Black:              { color: "#5E5E5E", showInPicker: false }                       # belts, drag chains, steppers, cameras, pumps, nozzle tips
+  Electronics:        { color: "#474747", metalness: 0.1, showInPicker: false }       # black solder-mask PCBs
 
 # Patterns are case-sensitive fnmatch globs against a node's leaf name.
 # Order matters — first match wins. Several groups share a name with the
