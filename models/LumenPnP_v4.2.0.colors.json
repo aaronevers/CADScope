@@ -367,7 +367,7 @@
     "LumenPnP/staging-plate-ASM/Body": {
       "category": "Plate"
     },
-    "primary-staging-plate/bottom-camera_001": {
+    "primary-staging-plate": {
       "hidden": true
     },
     "optional_strip_feeders": {
