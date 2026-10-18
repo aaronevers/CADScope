@@ -41,10 +41,7 @@ doc.saveAs({path!r})
 # A 4x5x6 box saved in its own document, and a probe document whose "Bed"
 # group holds an App::Link to that box — the way LumenPnP v4.2 brings in its
 # bed from sibling files. FreeCAD only links across documents from a saved
-# owner, so the probe is saved before the link is made. Build it under a
-# resolved temp path: through macOS's /var -> /private/var symlink FreeCAD
-# saves the link as a path that climbs to / and back down, which would keep
-# finding the original file after the probe is moved.
+# owner, so the probe is saved before the link is made.
 MAKE_LINKED_DOCS = """
 import FreeCAD
 part_doc = FreeCAD.newDocument("widget")
@@ -63,6 +60,21 @@ bed.addObject(link)
 doc.recompute()
 doc.save()
 """
+
+
+def make_linked_docs():
+    """Build the MAKE_LINKED_DOCS probe in a fresh temp dir; return (temp dir, probe path).
+
+    The temp dir is resolved: through macOS's /var -> /private/var symlink
+    FreeCAD saves the link as a path that climbs to / and back down, which
+    would keep finding the original file after the probe is moved.
+    """
+    tmp = os.path.realpath(tempfile.mkdtemp())
+    os.makedirs(os.path.join(tmp, "parts"))
+    doc = os.path.join(tmp, "probe.FCStd")
+    run_freecad_script(MAKE_LINKED_DOCS.format(
+        part_path=os.path.join(tmp, "parts", "widget.FCStd"), probe_path=doc), tmp)
+    return tmp, doc
 
 
 def node_paths(glb_path):
@@ -130,11 +142,7 @@ class TestConvertLinkedDocument(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.tmp = os.path.realpath(tempfile.mkdtemp())
-        os.makedirs(os.path.join(cls.tmp, "parts"))
-        doc = os.path.join(cls.tmp, "probe.FCStd")
-        run_freecad_script(MAKE_LINKED_DOCS.format(
-            part_path=os.path.join(cls.tmp, "parts", "widget.FCStd"), probe_path=doc), cls.tmp)
+        cls.tmp, doc = make_linked_docs()
         cls.glb = os.path.join(cls.tmp, "probe.glb")
         cls.result = subprocess.run(
             [CONVERT, doc, cls.glb],
@@ -162,12 +170,8 @@ class TestConvertBrokenLink(unittest.TestCase):
     """A document converted without the files it links to fails instead of exporting less."""
 
     def test_missing_linked_file_fails(self):
-        tmp = os.path.realpath(tempfile.mkdtemp())
+        tmp, doc = make_linked_docs()
         self.addCleanup(shutil.rmtree, tmp, True)
-        os.makedirs(os.path.join(tmp, "parts"))
-        doc = os.path.join(tmp, "probe.FCStd")
-        run_freecad_script(MAKE_LINKED_DOCS.format(
-            part_path=os.path.join(tmp, "parts", "widget.FCStd"), probe_path=doc), tmp)
         alone = os.path.join(tmp, "alone")
         os.makedirs(alone)
         shutil.copy(doc, alone)

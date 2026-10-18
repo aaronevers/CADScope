@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# ABOUTME: End-to-end tests for convert.sh axis handling using a probe box STEP.
-# ABOUTME: Runs FreeCAD and Blender for real; skipped when either app is missing.
+# ABOUTME: End-to-end tests for convert.sh axis handling using a probe box STEP, plus the shared
+# ABOUTME: FreeCAD probe-script runner; runs FreeCAD and Blender for real, skipped when missing.
 
 import os
 import shutil
