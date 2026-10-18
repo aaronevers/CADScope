@@ -41,6 +41,15 @@ const CASES = [
   ['M3x25_SHCS_v2', 'M3x25 SHCS'],
   ['M5x10_BHCS_v12', 'M5x10 BHCS'],
   ['Hotend_v2_(3)', 'Hotend'],
+  ['18mm_Spacer_v003', '18mm Spacer'],
+  ['Spacer_v003-2', 'Spacer'],
+  ['ADXL_Bed_Mount_(2)_v2', 'ADXL Bed Mount'],
+  // Stacked version markers all strip.
+  ['M3x12_SHCS_v1_(2)_v1', 'M3x12 SHCS'],
+  ['Steve_Idler_Latch_v32_v1', 'Steve Idler Latch'],
+  ['micro_usb_connector_v17_v002', 'Micro Usb Connector'],
+  // Part numbers left once a version marker is stripped are kept.
+  ['HFSB5-2040-235_v002', 'HFSB5-2040-235'],
   // Capital V and voltage-style codes are not version markers.
   ['Part_V3', 'Part V3'],
   ['PSU_48V', 'PSU 48V'],
