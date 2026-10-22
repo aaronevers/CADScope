@@ -1,10 +1,13 @@
 {
   "palette": {
     "Main": {
-      "color": "#797979"
+      "color": "#36BBA7"
     },
     "Accent": {
-      "color": "#9F6204"
+      "color": "#613583"
+    },
+    "Tertiary": {
+      "color": "#77767B"
     },
     "Frame": {
       "color": "#3a3a3a",
@@ -211,7 +214,7 @@
     },
     {
       "match": "a_front_grill_logo_plates_*",
-      "category": "Accent"
+      "category": "Tertiary"
     },
     {
       "match": "a_heat_set_practice_*",
@@ -288,7 +291,7 @@
     },
     "Accessories/Spool_Holder/Prusament_Spool_v2/filament": {
       "displayName": "Spool Holder",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Accessories/Spool_Holder/Prusament_Spool_v2_(1)/filament_(1)": {
       "displayName": "Spool Holder",
@@ -382,7 +385,8 @@
       "displayName": "Y Motor"
     },
     "Accessories/Front_Grill_&_Screen/LCD_-_Prusa_RepRapDiscount_2004/a_lcd_knob_mk3": {
-      "displayName": "[a]_lcd_knob_mk3"
+      "displayName": "[a]_lcd_knob_mk3",
+      "category": "Tertiary"
     },
     "Accessories/Front_Grill_&_Screen/LCD_-_Prusa_RepRapDiscount_2004/a_lcd_knob_mk3_tri_wing": {
       "displayName": "[a]_lcd_knob_tri_wing_mk3",
@@ -390,11 +394,11 @@
     },
     "Accessories/Front_Grill_&_Screen/LCD_-_Prusa_RepRapDiscount_2004/lcd_supports_mk3_v2": {
       "displayName": "lcd_supports_mk3",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Accessories/Front_Grill_&_Screen/LCD_-_Prusa_RepRapDiscount_2004/lcd_supports_mk3_v2_(1)": {
       "displayName": "lcd_supports_mk3",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Accessories/Front_Grill_&_Screen/LCD_-_Prusa_RepRapDiscount_2004/mmu_lcd_cover_prusawire012/mmu_lcd_cover_prusawire001": {
       "category": "Main"
@@ -434,51 +438,51 @@
     },
     "Accessories/Spool_Holder/Filament_Guide/filament_guide_ecas": {
       "displayName": "filament_guide_ecas",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Mainboards/Rambo_Assembly/heatbed_cable_clip": {
       "displayName": "heatbed_cable_clip",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Mainboards/Rambo_Assembly/mcu_cover_einsy": {
       "displayName": "mcu_cover_einsy",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Mainboards/SKR_Assembly/heatbed_cable_clip001": {
       "displayName": "heatbed_cable_clip",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Mainboards/SKR_Assembly/mcu_cover_skr_mini_e3": {
       "displayName": "mcu_cover_skr_mini_e3",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Power/Buck_Converter_Assembly/daygreen_mosfet_bracket": {
       "displayName": "daygreen_mosfet_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Power/PSU_Assembly/Prusa_Black_PSU/black_psu_cover_prusawire": {
       "displayName": "black_psu_cover_prusawire",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Power/PSU_Assembly/Prusa_Silver_PSU/silver_psu_cover_mk3_bottom": {
       "displayName": "silver_psu_cover_mk3_bottom",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Power/Wago_Mount": {
       "displayName": "wago_mount",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Raspberry_Pi/raspberry_pi_bracket": {
       "displayName": "raspberry_pi_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Toolhead_Boards/BTT_SB2209_USB_Adapter/btt_sb2209_usb_bracket": {
       "displayName": "btt_sb2209_usb_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Toolhead_Boards/Nitehawk-SB_USB/nitehawk_sb_usb_bracket": {
       "displayName": "nitehawk_sb_usb_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Frame/Feet_Assembly_(Assembly)/Feet_Assembly/a_rubber_foot_block_x4": {
       "displayName": "[a]_rubber_foot_block_x4"
@@ -494,32 +498,32 @@
     },
     "Panels/FrontDeckAssembly/deck_panel_front": {
       "displayName": "deck_panel_front",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Panels/Rear_Panel_Assembly/deck_panel_rear_connector": {
       "displayName": "deck_panel_rear_connector",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Panels/Rear_Panel_Assembly/deck_panel_rear_left": {
       "displayName": "deck_panel_rear_left",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Panels/Rear_Panel_Assembly/deck_panel_rear_right_deltablackpsu": {
       "displayName": "deck_panel_rear_right_deltablackpsu",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Panels/Rear_Panel_Assembly/deck_panel_rear_right_silverpsu-meanwellpsu": {
       "displayName": "deck_panel_rear_right_silverpsu-meanwellpsu",
-      "category": "Main",
+      "category": "Tertiary",
       "hidden": true
     },
     "XZ_Axis/Door_Puller/door_puller_bracket": {
       "displayName": "door_puller_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/Door_Puller_Idler/door_puller_idler_bracket": {
       "displayName": "door_puller_idler_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/XZ_Block_-_Left/XZ_Block_-_Left_-_16T/Rod_Bearings/LM8LUU_Adapter_Assembly/8mm_bearing_adapter_x2_LM8LUU": {
       "displayName": "8mm_bearing_adapter_x2_LM8LUU",
@@ -555,11 +559,11 @@
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Axis_-_Extrusion_Assembly/Door_Puller_Anchor": {
       "displayName": "door_puller_anchor",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Axis_-_Extrusion_Assembly/Gantry_Frame_Bumper": {
       "displayName": "gantry_frame_bumper",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/Stealthburner/umbilical_strain_relief_by_nagelwerkstatt": {
       "displayName": "umbilical_strain_relief_by_nagelwerkstatt",
@@ -573,15 +577,15 @@
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/carriage_block": {
       "displayName": "carriage_block",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/x_carriage_left": {
       "displayName": "x_carriage_left",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/x_carriage_right": {
       "displayName": "x_carriage_right",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Y_Axis/Bed_Assembly_(1)/Bed_Assembly/heatbed_cable_cover_bottom_2mm_nylon": {
       "displayName": "heatbed_cable_cover_bottom_2mm_nylon",
@@ -633,16 +637,16 @@
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/superpinda_mount002/superpinda_mount": {
       "displayName": "superpinda_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/superpinda_mount002/superpinda_mount001": {
       "hidden": true
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/X_Belt_Tension_Block_Assembly/X_Carriage_belt_clip_x2": {
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/X_Belt_Tension_Block_Assembly/X_Carriage_belt_clip_x003": {
-      "category": "Main"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/XZ_Block_-_Left/XZ_Block_-_Left_-_20T": {
       "hidden": true
@@ -703,13 +707,13 @@
       "displayName": "[a]_x_block_rear_M3Sx20T"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/XZ_Block_-_Left/XZ_Block_-_Left_-_16T/a_x_end_clip_R1/SOLID005": {
-      "category": "Accent"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/XZ_Block_-_Left/XZ_Block_-_Left_-_20T/a_x_end_clip_R002/SOLID006": {
       "category": "Accent"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/XZ_Block_-_Right/XZ_Block_-_Right_-_16T/a_z_end_clip_R1/SOLID007": {
-      "category": "Accent"
+      "category": "Tertiary"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/XZ_Block_-_Right/XZ_Block_-_Right_-_20T/a_z_end_clip_R002/SOLID008": {
       "category": "Accent"
@@ -798,19 +802,19 @@
     },
     "Y_Axis/Left_Rod_Assembly/Y_Rod_Front_Left/SOLID003": {
       "displayName": "y_rod_holder_front_left",
-      "category": "Main"
+      "category": "Accent"
     },
     "Y_Axis/Left_Rod_Assembly/Y_Rod_Rear_Left/SOLID002": {
       "displayName": "y_rod_holder_rear_left",
-      "category": "Main"
+      "category": "Accent"
     },
     "Y_Axis/Right_Rod_Assembly/Y_Rod_Front_Right/SOLID001": {
       "displayName": "y_rod_holder_front_right",
-      "category": "Main"
+      "category": "Accent"
     },
     "Y_Axis/Right_Rod_Assembly/Y_Rod_Rear_Right/SOLID": {
       "displayName": "y_rod_holder_rear_right",
-      "category": "Main"
+      "category": "Accent"
     },
     "Electronics/Power/PSU_Assembly/Prusa_Black_PSU/Delta_PMZ-24V240WDAL": {
       "category": "Hardware"
@@ -855,7 +859,7 @@
       "category": "Main"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/Stealthburner/Revo_Voron/sb_printhead_revo_voron_rear": {
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Y_Axis/Y_Motors_Combined/Y_Motor_20T": {
       "hidden": true
@@ -914,15 +918,15 @@
     },
     "Electronics/Power/PSU_Assembly/Prusa_Black_PSU/black_psu_cover": {
       "displayName": "black_psu_cover_voron",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Electronics/Power/PSU_Assembly/Prusa_Silver_PSU/silver_psu_cover_mk3": {
       "displayName": "silver_psu_cover_mk3_rewired",
-      "category": "Main"
+      "category": "Tertiary"
     },
     "Y_Axis/Y_Idler_Assembly/IdlerBracket": {
       "displayName": "y_idler_bracket",
-      "category": "Main"
+      "category": "Tertiary"
     }
   }
 }
