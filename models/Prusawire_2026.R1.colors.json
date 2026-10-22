@@ -637,7 +637,7 @@
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/superpinda_mount002/superpinda_mount": {
       "displayName": "superpinda_bracket",
-      "category": "Tertiary"
+      "category": "Accent"
     },
     "XZ_Axis/XZ_Gantry/X_Axis_Assembly/X_Carriage/superpinda_mount002/superpinda_mount001": {
       "hidden": true
